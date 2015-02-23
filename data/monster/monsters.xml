@@ -351,6 +351,7 @@
 	<monster name="Dragon" file="Dragons/dragon.xml"/>
 	<monster name="Dragonling" file="Dragons/Dragonling.xml"/>
 	<monster name="Dragon Hatchling" file="Dragons/dragon hatchling.xml"/>
+	<monster name="Elder Wyrm" file="Dragons/elder wyrm.xml"/>
 	<monster name="Frost Dragon" file="Dragons/frost dragon.xml"/>
 	<monster name="Frost Dragon Hatchling" file="Dragons/frost dragon hatchling.xml"/>
 	<monster name="Undead Dragon" file="Dragons/undead dragon.xml"/>
@@ -371,6 +372,7 @@
 	<monster name="Nightmare of Gaz'haragoth" file="Dreamhaunters/nightmare of gaz'haragoth.xml"/>
 	<monster name="Retching Horror" file="Dreamhaunters/retching horror.xml"/>
 	<monster name="Shiversleep" file="Dreamhaunters/shiversleep.xml"/>
+	<monster name="Shock Head" file="Dreamhaunters/shock head.xml"/>
 	<monster name="Sight of Surrender" file="Dreamhaunters/sight of surrender.xml"/>
 	<monster name="Silencer" file="Dreamhaunters/silencer.xml"/>
 	<monster name="Terrorsleep" file="Dreamhaunters/terrorsleep.xml"/>
@@ -384,6 +386,7 @@
 	<monster name="Enslaved Dwarf" file="Dwarves/enslaved dwarf.xml"/>
 	<monster name="Lost Basher" file="Dwarves/lost basher.xml"/>
 	<monster name="Lost Berserker" file="Dwarves/lost berserker.xml"/>
+	<monster name="Lost Husher" file="Dwarves/lost husher.xml"/>
 	<monster name="Lost Thrower" file="Dwarves/lost thrower.xml"/>
 
 	<!-- Dworcs -->
