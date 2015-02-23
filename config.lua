@@ -50,12 +50,6 @@ timeBetweenExActions = 1000
 mapName = "forgotten"
 mapAuthor = "Komic"
 
--- Market
-marketOfferDuration = 30 * 24 * 60 * 60
-premiumToCreateMarketOffer = "yes"
-checkExpiredMarketOffersEachMinutes = 60
-maxMarketOffersAtATimePerPlayer = 100
-
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
