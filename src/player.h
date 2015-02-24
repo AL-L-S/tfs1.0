@@ -798,11 +798,6 @@ class Player final : public Creature, public Cylinder
 				client->sendCreatureHelpers(creatureId, helpers);
 			}
 		}
-		void sendSpellCooldown(uint8_t spellId, uint32_t time) {
-			if (client) {
-				client->sendSpellCooldown(spellId, time);
-			}
-		}
 
 		void sendDamageMessage(MessageClasses mclass, const std::string& message, const Position& pos,
 		                       uint32_t primaryDamage = 0, TextColor_t primaryColor = TEXTCOLOR_NONE,

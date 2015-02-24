@@ -377,7 +377,6 @@ bool CombatSpell::executeCastSpell(Creature* creature, const LuaVariant& var)
 
 Spell::Spell()
 {
-	spellId = 0;
 	level = 0;
 	magLevel = 0;
 	mana = 0;
@@ -442,10 +441,6 @@ bool Spell::configureSpell(const pugi::xml_node& node)
 	}
 
 	pugi::xml_attribute attr;
-	if ((attr = node.attribute("spellid"))) {
-		spellId = pugi::cast<uint16_t>(attr.value());
-	}
-
 	if ((attr = node.attribute("lvl"))) {
 		level = pugi::cast<uint32_t>(attr.value());
 	}
@@ -559,7 +554,7 @@ bool Spell::playerSpellCheck(Player* player) const
 		return false;
 	}
 
-	if (player->hasCondition(CONDITION_SPELLCOOLDOWN, spellId)) {
+	if (player->hasCondition(CONDITION_SPELLCOOLDOWN)) {
 		player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
 
 		if (isInstant()) {
@@ -748,7 +743,7 @@ void Spell::postCastSpell(Player* player, bool finishedCast /*= true*/, bool pay
 	if (finishedCast) {
 		if (!player->hasFlag(PlayerFlag_HasNoExhaustion)) {
 			if (cooldown > 0) {
-				Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false, spellId);
+				Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false);
 				player->addCondition(condition);
 			}
 		}
@@ -937,7 +932,7 @@ bool InstantSpell::playerCastInstant(Player* player, std::string& param)
 			if (!target || target->getHealth() <= 0) {
 				if (!casterTargetOrDirection) {
 					if (cooldown > 0) {
-						Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false, spellId);
+						Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false);
 						player->addCondition(condition);
 					}
 
@@ -991,7 +986,7 @@ bool InstantSpell::playerCastInstant(Player* player, std::string& param)
 
 			if (ret != RETURNVALUE_NOERROR) {
 				if (cooldown > 0) {
-					Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false, spellId);
+					Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_SPELLCOOLDOWN, cooldown, 0, false);
 					player->addCondition(condition);
 				}
 
