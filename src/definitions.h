@@ -71,8 +71,14 @@
 #define strncasecmp _strnicmp
 
 #ifndef _WIN32_WINNT
-// 0x0602: Windows 7
-#define _WIN32_WINNT 0x0602
+//Windows 2000	0x0500
+//Windows XP	0x0501
+//Windows 2003	0x0502
+//Windows Vista	0x0600
+//Windows Seven 0x0601
+//Windows 8     0x0602
+//Windows 8.1   0x0603
+#define _WIN32_WINNT 0x0603
 #endif
 #endif
 
