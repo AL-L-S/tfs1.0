@@ -78,7 +78,6 @@
 	<monster name="Carniphila" file="Bio-Elementals/carniphila.xml"/>
 	<monster name="Defiler" file="Bio-Elementals/defiler.xml"/>
 	<monster name="Haunted Treeling" file="Bio-Elementals/haunted treeling.xml"/>
-	<monster name="Leaf Golem" file="Bio-Elementals/leaf golem.xml"/>
 	<monster name="Mechanical Fighter" file="Bio-Elementals/mechanical fighter.xml"/>
 	<monster name="Slime" file="Bio-Elementals/slime.xml"/>
 	<monster name="Son of Verminor" file="Bio-Elementals/son of verminor.xml"/>
@@ -90,10 +89,8 @@
 	<monster name="Demon Parrot" file="Birds/demon parrot.xml"/>
 	<monster name="Dire Penguin" file="Birds/dire penguin.xml"/>
 	<monster name="Flamingo" file="Birds/flamingo.xml"/>
-	<monster name="Marsh Stalker" file="Birds/marsh stalker.xml"/>
 	<monster name="Parrot" file="Birds/parrot.xml"/>
 	<monster name="Penguin" file="Birds/penguin.xml"/>
-	<monster name="Pigeon" file="Birds/pigeon.xml"/>
 	<monster name="Seagull" file="Birds/seagull.xml"/>
 	<monster name="Terror Bird" file="Birds/terror bird.xml"/>
 
