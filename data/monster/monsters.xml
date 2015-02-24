@@ -589,10 +589,6 @@
 	<monster name="Thornback Tortoise" file="Misc/Misc Reptiles/thornback tortoise.xml"/>
 	<monster name="Tortoise" file="Misc/Misc Reptiles/tortoise.xml"/>
 
-	<!-- Mollusks -->
-	<monster name="Calamary" file="Mollusks/calamary.xml"/>
-	<monster name="Slug" file="Mollusks/slug.xml"/>
-
 	<!-- Monks -->
 	<monster name="Dark Monk" file="Monks/dark monk.xml"/>
 	<monster name="Monk" file="Monks/monk.xml"/>
@@ -630,8 +626,6 @@
 	<monster name="Rorc" file="Orcs/rorc.xml"/>
 
 	<!-- Outlaws -->
-	<monster name="Adventurer" file="Outlaws/adventurer.xml"/>
-	<monster name="Angry Adventurer" file="Outlaws/angry adventurer.xml"/>
 	<monster name="Asassin" file="Outlaws/assassin.xml"/>
 	<monster name="Assassin" file="Outlaws/assassin.xml"/>
 	<monster name="Bandit" file="Outlaws/bandit.xml"/>
@@ -694,9 +688,6 @@
 	<monster name="Quara Pincher Scout" file="Quaras/quara pincher scout.xml"/>
 	<monster name="Quara Predator" file="Quaras/quara predator.xml"/>
 	<monster name="Quara Predator Scout" file="Quaras/quara predator scout.xml"/>
-
-	<!-- Salamanders -->
-	<monster name="Salamander" file="Salamanders/salamander.xml"/>
 
 	<!-- Serpents -->
 	<monster name="Cobra" file="Serpents/cobra.xml"/>
@@ -777,23 +768,15 @@
 	<monster name="Mummy" file="Undead Humanoids/mummy.xml"/>
 	<monster name="Vampire" file="Undead Humanoids/vampire.xml"/>
 	<monster name="Vampire Bride" file="Undead Humanoids/vampire bride.xml"/>
-	<monster name="Vampire Viscount" file="Undead Humanoids/vampire viscount.xml"/>
-	<monster name="Vicious Manbat" file="Undead Humanoids/vicious manbat.xml"/>
 	<monster name="Zombie" file="Undead Humanoids/zombie.xml"/>
 	<monster name="Undead Prospector" file="Undead Humanoids/undead prospector.xml"/>
-	<monster name="Nightfiend" file="Undead Humanoids/nightfiend.xml"/>
-	<monster name="Tomb Servant" file="Undead Humanoids/tomb servant.xml"/>
-	<monster name="The Pale Count" file="Undead Humanoids/the pale count.xml"/>
 
 	<!-- Ungulates -->
 	<monster name="Black Sheep" file="Ungulates/black sheep.xml"/>
 	<monster name="Boar" file="Ungulates/boar.xml"/>
 	<monster name="Deer" file="Ungulates/deer.xml"/>
-	<monster name="Desperate White Deer" file="Ungulates/desperate white deer.xml"/>
 	<monster name="Doom Deer" file="Ungulates/doom deer.xml"/>
-	<monster name="Dromedary" file="Ungulates/dromedary.xml"/>
 	<monster name="Elephant" file="Ungulates/elephant.xml"/>
-	<monster name="Enraged White Deer" file="Ungulates/enraged white deer.xml"/>
 	<monster name="Evil Sheep Lord" file="Ungulates/evil sheep lord.xml"/>
 	<monster name="Evil Sheep" file="Ungulates/evil sheep.xml"/>
 	<monster name="Horse" file="Ungulates/horse.xml"/>
@@ -801,13 +784,10 @@
 	<monster name="Horse2" file="Ungulates/horse(fire).xml"/>
 	<monster name="Horse3" file="Ungulates/horse(grey).xml"/>
 	<monster name="Mammoth" file="Ungulates/mammoth.xml"/>
-	<monster name="Mushroom Sniffer" file="Ungulates/mushroom sniffer.xml"/>
 	<monster name="Pig" file="Ungulates/pig.xml"/>
 	<monster name="Sheep" file="Ungulates/sheep.xml"/>
-	<monster name="Stampor" file="Ungulates/stampor.xml"/>
 	<monster name="Terrified Elephant" file="Ungulates/terrified elephant.xml"/>
 	<monster name="Vampire Pig" file="Ungulates/vampire pig.xml"/>
-	<monster name="White Deer" file="Ungulates/white deer.xml"/>
 
 	<!-- Voodoo Cultists -->
 	<monster name="Acolyte of the Cult" file="Voodoo Cultists/acolyte of the cult.xml"/>
