@@ -219,6 +219,8 @@ class ProtocolGame final : public Protocol
 
 		void sendCreatureSquare(const Creature* creature, SquareColor_t color);
 
+		void sendSpellCooldown(uint8_t spellId, uint32_t time);
+
 		//tiles
 		void sendMapDescription(const Position& pos);
 

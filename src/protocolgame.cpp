@@ -2153,6 +2153,15 @@ void ProtocolGame::sendVIP(uint32_t guid, const std::string& name, const std::st
 	writeToOutputBuffer(msg);
 }
 
+void ProtocolGame::sendSpellCooldown(uint8_t spellId, uint32_t time)
+{
+	/*NetworkMessage msg;
+	msg.AddByte(0xA4);
+	msg.AddByte(spellId);
+	msg.Add<uint32_t>(time);
+	writeToOutputBuffer(msg);*/
+}
+
 void ProtocolGame::sendDamageMessage(MessageClasses mclass, const std::string& message, const Position& pos,
                                      uint32_t primaryDamage/* = 0*/, TextColor_t primaryColor/* = TEXTCOLOR_NONE*/,
                                      uint32_t secondaryDamage/* = 0*/, TextColor_t secondaryColor/* = TEXTCOLOR_NONE*/)
