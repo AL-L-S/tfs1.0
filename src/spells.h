@@ -167,8 +167,6 @@ class Spell : public BaseSpell
 		bool playerInstantSpellCheck(Player* player, const Position& toPos);
 		bool playerRuneSpellCheck(Player* player, const Position& toPos);
 
-		uint8_t spellId;
-
 		uint32_t mana;
 		uint32_t manaPercent;
 		uint32_t soul;
