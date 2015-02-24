@@ -93,5 +93,5 @@ startupDatabaseOptimization = "no"
 -- Status server information
 ownerName = ""
 ownerEmail = ""
-url = "http://otland.net/"
-location = "Sweden"
+url = "http://xtibia.com/"
+location = "Brazil"
