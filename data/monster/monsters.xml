@@ -101,7 +101,6 @@
 	<monster name="Penguin" file="Birds/penguin.xml"/>
 	<monster name="Pigeon" file="Birds/pigeon.xml"/>
 	<monster name="Seagull" file="Birds/seagull.xml"/>
-	<monster name="Terror Bird" file="Birds/terror bird.xml"/>
 
 	<!-- Blobs -->
 	<monster name="Acid Blob" file="Blobs/acid blob.xml"/>
