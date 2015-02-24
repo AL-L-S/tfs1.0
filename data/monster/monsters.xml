@@ -75,20 +75,12 @@
 	<monster name="Bear" file="Bears/bear.xml"/>
 	<monster name="Panda" file="Bears/panda.xml"/>
 	<monster name="Polar Bear" file="Bears/polar bear.xml"/>
-	<monster name="Undead Cavebear" file="Bears/undead cavebear.xml"/>
 
 	<!-- Bio-Elementals -->
 	<monster name="Bane Bringer" file="Bio-Elementals/bane bringer.xml"/>
 	<monster name="Bog Raider" file="Bio-Elementals/bog raider.xml"/>
 	<monster name="Carniphila" file="Bio-Elementals/carniphila.xml"/>
 	<monster name="Defiler" file="Bio-Elementals/defiler.xml"/>
-	<monster name="Diseased Bill" file="Bio-Elementals/diseased bill.xml"/>
-	<monster name="Diseased Dan" file="Bio-Elementals/diseased dan.xml"/>
-	<monster name="Diseased Fred" file="Bio-Elementals/diseased fred.xml"/>
-	<monster name="Haunted Treeling" file="Bio-Elementals/haunted treeling.xml"/>
-	<monster name="Hideous Fungus" file="Bio-Elementals/hideous fungus.xml"/>
-	<monster name="Humongous Fungus" file="Bio-Elementals/humongous fungus.xml"/>
-	<monster name="Humorless Fungus" file="Bio-Elementals/humorless fungus.xml"/>
 	<monster name="Leaf Golem" file="Bio-Elementals/leaf golem.xml"/>
 	<monster name="Mechanical Fighter" file="Bio-Elementals/mechanical fighter.xml"/>
 	<monster name="Slime" file="Bio-Elementals/slime.xml"/>
